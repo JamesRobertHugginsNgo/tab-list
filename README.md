@@ -3,7 +3,7 @@
 - [Boilerplate](src/style.css)
 - [Sample Page](sample/sample.html)
 
-## Github Links
+## Alternate Views
 
-- [Repo](https://github.com/JamesRobertHugginsNgo/tab-list)
-- [Page](https://jamesroberthugginsngo.github.io/tab-list/)
+- [View in github](https://github.com/JamesRobertHugginsNgo/tab-list)
+- [View in github page](https://jamesroberthugginsngo.github.io/tab-list/)
