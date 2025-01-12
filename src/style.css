@@ -34,7 +34,6 @@
 				color: black;
 			}
 
-			/* CONDITIONAL: For anchor element */
 			&:is(a) {
 				text-decoration: none;
 
@@ -42,15 +41,12 @@
 					text-decoration: underline;
 				}
 			}
-			/* CONDITIONAL END */
 
-			/* CONDITIONAL: For button element */
 			&:is(button) {
 				cursor: pointer;
 				font-size: 1em;
 				width: 100%;
 			}
-			/* CONDITIONAL END */
 
 			&:hover {
 				background-color: white;
@@ -59,23 +55,17 @@
 		}
 	}
 
-	/* CONDITIONAL: For center aligned tabs */
 	&.tab-list-centred {
 		justify-content: center;
 	}
-	/* CONDITIONAL END */
 
-	/* CONDITIONAL: For right aligned tabs */
 	&.tab-list-right {
 		justify-content: end;
 	}
-	/* CONDITIONAL END */
 
-	/* CONDITIONAL: For full width (or wide) tabs */
 	&.tab-list-wide {
 		&>* {
 			flex: 1;
 		}
 	}
-	/* CONDITIONAL END */
 }
